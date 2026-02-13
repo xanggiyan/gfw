@@ -46,79 +46,12 @@ tun:
     - 1.1.1.1
     - 1.0.0.1
 proxies:
-  - name: 🇷🇺_RU_俄罗斯
+  - name: 🇳🇱_NL_荷兰->🇺🇸_US_美国
     type: vless
-    server: s53.buzzvpn.online
-    port: 443
-    uuid: 545f6499-bee2-454c-96db-0fc028d128f6
-    servername: ads.x5.ru
-    tls: true
-    flow: xtls-rprx-vision
-    client-fingerprint: chrome
-    reality-opts:
-      public-key: h4mwlDeT6Rqx41RIMeaPi-qsugZ0JkKcyRU65_K64Ek
-      short-id: 0a0d3cae
-  - name: 🇮🇳_IN_印度
-    type: trojan
-    server: amanm.wsone.icu
-    port: 443
-    password: M7v%w11Se*
-    skip-cert-verify: true
+    server: 45.132.185.227
+    port: 889
+    uuid: f7ddcea8-95e3-48de-909f-bb5d3c47696b
     tls: false
-  - name: 未知
-    type: ss
-    server: 103.186.154.37
-    port: 38388
-    cipher: aes-256-cfb
-    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  - name: 🇯🇵_JP_日本
-    type: vmess
-    server: 160.191.245.48
-    port: 58623
-    uuid: 8d74803e-aa74-47ef-e3ae-23eeaa96f89d
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: false
-  - name: 未知_1
-    type: ss
-    server: 103.186.155.40
-    port: 38388
-    cipher: aes-256-cfb
-    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  - name: 🇮🇷_IR_伊朗
-    type: vmess
-    server: v9.hdacd.com
-    port: 30809
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 2
-    cipher: auto
-    tls: false
-    skip-cert-verify: false
-  - name: 🇷🇺_RU_俄罗斯_1
-    type: vless
-    server: 78.153.139.68
-    port: 8443
-    uuid: fd8972d7-cf5e-11f0-9970-45e1d80c4039
-    servername: images.apple.com
-    tls: true
-    flow: xtls-rprx-vision
-    client-fingerprint: chrome
-    reality-opts:
-      public-key: pekfYPV5U8EjfQ4_zS5c6I2NnOZ2jUlyMGAWa4FWPF4
-      short-id: 58c512b4422e2517
-  - name: 🇷🇺_RU_俄罗斯_2
-    type: vless
-    server: 176.109.106.241
-    port: 443
-    uuid: 07cd9dbe-21ac-4871-817d-c772687e4b7c
-    servername: eh.vk.com
-    tls: true
-    flow: xtls-rprx-vision
-    client-fingerprint: chrome
-    reality-opts:
-      public-key: 7IOtSp0-n2_uNS5nMO9ywZbn2HibMRGy0KbLad3szXc
-      short-id: b8cf9578640a9edf
   - name: 🇨🇳_CN_中国
     type: vless
     server: 156.224.78.8
@@ -131,33 +64,338 @@ proxies:
     reality-opts:
       public-key: D_kMOsg1KCtT0tudPFVDXGuEcSqZGtUYqBB-BiIxmls
       short-id: f7223dab
+  - name: 未知
+    type: ss
+    server: 103.186.154.37
+    port: 38388
+    cipher: aes-256-cfb
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  - name: 🇬🇧_GB_英国
+    type: vless
+    server: 91.84.113.114
+    port: 443
+    uuid: a44e0875-210f-4941-9062-89b6361a14c6
+    servername: apple.com
+    tls: true
+    flow: xtls-rprx-vision
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: i5a8i2AWUSMZ-rYA6hGBRCBBoe7W5ah33SCdF5JkMk4
+      short-id: 8bcfe256cf216fd8
+  - name: 🇺🇸_US_美国
+    type: vless
+    server: 20.218.137.249
+    port: 443
+    uuid: jina
+    servername: jina-20218137249-direct.yektanet.co
+    tls: true
+    flow: xtls-rprx-vision
+    client-fingerprint: firefox
+  - name: 未知_1
+    type: ss
+    server: 103.186.154.74
+    port: 38388
+    cipher: aes-256-cfb
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  - name: 🇸🇦_SA_沙特阿拉伯->🏳️_unKnow_未知
+    type: vless
+    server: france.alpacalounge.com
+    port: 2096
+    uuid: a4ed2e0b-85d9-4a13-884c-eae6bb4f1800
+    servername: fr.alpacalounge.com
+    tls: true
+    flow: xtls-rprx-vision
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: 6G6julG6n7bkD8JvdLdGSniDXf9AYV12PGYNPQgg7xQ
+      short-id: f77d05d1bf4d
+  - name: 未知_2
+    type: ss
+    server: 103.186.155.131
+    port: 38388
+    cipher: aes-256-cfb
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  - name: 🇮🇳_IN_印度
+    type: trojan
+    server: amanm.wsone.icu
+    port: 443
+    password: M7v%w11Se*
+    skip-cert-verify: true
+    tls: false
+  - name: 🇷🇺_RU_俄罗斯
+    type: vless
+    server: 87.239.111.227
+    port: 443
+    uuid: 895f94cb-5567-4731-bc2c-2f89a54bafe4
+    network: grpc
+    servername: m.vk.ru
+    tls: true
+    client-fingerprint: chrome
+    grpc-opts:
+      grpc-service-name: grpc
+    reality-opts:
+      public-key: kz54nOxv8IOst-C_GQO5cf6106be0UakNbCEXiDuhHA
+      short-id: 3863adb3
+  - name: 未知_3
+    type: ss
+    server: 103.186.155.64
+    port: 38388
+    cipher: aes-256-cfb
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  - name: 🇷🇺_RU_俄罗斯_1
+    type: vless
+    server: 78.153.139.68
+    port: 8443
+    uuid: fd8972d7-cf5e-11f0-9970-45e1d80c4039
+    servername: images.apple.com
+    tls: true
+    flow: xtls-rprx-vision
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: pekfYPV5U8EjfQ4_zS5c6I2NnOZ2jUlyMGAWa4FWPF4
+      short-id: 58c512b4422e2517
+  - name: 🇫🇷_FR_法国
+    type: vless
+    server: nl2.vpn.kim
+    port: 443
+    uuid: bf2ca57a-06a0-11f1-9f7e-8f38e0f00e53
+    servername: nl2.wizard.select
+    tls: true
+    flow: xtls-rprx-vision
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: ELtVsaW5Vg-8XX7WPlSgZ1EZDIbFB1wVLPFNQSjlf2Y
+      short-id: "42217815"
+  - name: 未知_4
+    type: ss
+    server: 103.186.154.4
+    port: 38388
+    cipher: aes-256-cfb
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  - name: 未知_5
+    type: ss
+    server: 103.186.155.117
+    port: 38388
+    cipher: aes-256-cfb
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  - name: 🇬🇧_GB_英国_1
+    type: vless
+    server: 51.250.70.196
+    port: 443
+    uuid: 07cd9dbe-21ac-4871-817d-c772687e4b7c
+    servername: eh.vk.com
+    tls: true
+    flow: xtls-rprx-vision
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: 7IOtSp0-n2_uNS5nMO9ywZbn2HibMRGy0KbLad3szXc
+      short-id: a1b2c3d4
+  - name: 🇷🇺_RU_俄罗斯_2
+    type: vless
+    server: 176.109.106.241
+    port: 443
+    uuid: 07cd9dbe-21ac-4871-817d-c772687e4b7c
+    servername: eh.vk.com
+    tls: true
+    flow: xtls-rprx-vision
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: 7IOtSp0-n2_uNS5nMO9ywZbn2HibMRGy0KbLad3szXc
+      short-id: b8cf9578640a9edf
+  - name: 未知_6
+    type: ss
+    server: 103.186.154.12
+    port: 38388
+    cipher: aes-256-cfb
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  - name: 🇬🇧_GB_英国_2
+    type: vless
+    server: 51.250.73.253
+    port: 8443
+    uuid: c0afdbe5-e506-4fd4-b838-6f9ee6fc3a5f
+    servername: api-maps.yandex.ru
+    tls: true
+    flow: xtls-rprx-vision
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: 0SzpdO0462wZ7qyy2aasdMVAcd8dtuWPN0aH8DfLY0Y
+      short-id: 548cdc
+  - name: 🇷🇺_RU_俄罗斯->🇨🇿_CZ_捷克
+    type: vless
+    server: 89.169.128.105
+    port: 8443
+    uuid: 3c5c4ccc-b502-42cb-8c42-cfa714db4767
+    servername: yandex.ru
+    tls: true
+    flow: xtls-rprx-vision
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: 7zd9mJilgjOrg_ohtw23Vmio-pdnYqeP_r-kiWt87Cg
+      short-id: f4b4a6365558ea2e
+  - name: 🇩🇪_DE_德国
+    type: vless
+    server: sr4.cloud-files-uploader.com
+    port: 80
+    uuid: 30713a3e-a491-44ab-9679-92ad615e70d8
+    network: ws
+    tls: false
+    client-fingerprint: chrome
+    ws-opts:
+      path: /
+      headers:
+        Host: sr4.cloud-files-uploader.com
+  - name: 🇺🇸_US_美国_1
+    type: vmess
+    server: tgju.org
+    port: 8080
+    uuid: nasnet
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+    network: ws
+    ws-opts:
+      path: /nasnet/cdn?ed=2560
+      headers:
+        Host: nasnet-571296497.iranpress.co
+  - name: 🇺🇸_US_美国_2
+    type: vless
+    server: 104.128.139.84
+    port: 47637
+    uuid: 4d7e4aad-4d74-49d2-95fd-1a470065a198
+    tls: false
+  - name: 🇩🇰_DK_丹麦
+    type: vless
+    server: 193.163.203.36
+    port: 10001
+    uuid: 6a3f4da1-687a-4bde-9943-df057315857c
+    servername: www.intel.com
+    tls: true
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: aBNzDaD-NL93hiwCTKg4paOppKc1RNAICxBjHFJrOy8
+      short-id: 9c9bb63c
+  - name: 🇺🇸_US_美国->🇸🇨_SC_塞舌尔
+    type: vless
+    server: 144.31.3.45
+    port: 5555
+    uuid: b42f7955-3741-406f-b95a-ed7b051ae5aa
+    servername: eurofurence.org
+    tls: true
+    flow: xtls-rprx-vision
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+      short-id: 6ba85179e30d4fc2
+  - name: 🇮🇷_IR_伊朗
+    type: vmess
+    server: v9.hdacd.com
+    port: 30809
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 2
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+  - name: 🇮🇷_IR_伊朗_1
+    type: vmess
+    server: v33.hdacd.com
+    port: 30833
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 2
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+  - name: 未知_7
+    type: ss
+    server: 103.186.155.40
+    port: 38388
+    cipher: aes-256-cfb
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  - name: 🇩🇰_DK_丹麦_1
+    type: vless
+    server: 193.163.203.36
+    port: 18570
+    uuid: 88e148ba-1e39-45e9-8aef-6b207411435a
+    network: ws
+    tls: true
+    client-fingerprint: chrome
+    ws-opts:
+      path: /
+  - name: 未知_8
+    type: ss
+    server: 103.186.155.31
+    port: 38388
+    cipher: aes-256-cfb
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇷🇺_RU_俄罗斯
-      - 🇮🇳_IN_印度
-      - 未知
-      - 🇯🇵_JP_日本
-      - 未知_1
-      - 🇮🇷_IR_伊朗
-      - 🇷🇺_RU_俄罗斯_1
-      - 🇷🇺_RU_俄罗斯_2
+      - 🇳🇱_NL_荷兰->🇺🇸_US_美国
       - 🇨🇳_CN_中国
+      - 未知
+      - 🇬🇧_GB_英国
+      - 🇺🇸_US_美国
+      - 未知_1
+      - 🇸🇦_SA_沙特阿拉伯->🏳️_unKnow_未知
+      - 未知_2
+      - 🇮🇳_IN_印度
+      - 🇷🇺_RU_俄罗斯
+      - 未知_3
+      - 🇷🇺_RU_俄罗斯_1
+      - 🇫🇷_FR_法国
+      - 未知_4
+      - 未知_5
+      - 🇬🇧_GB_英国_1
+      - 🇷🇺_RU_俄罗斯_2
+      - 未知_6
+      - 🇬🇧_GB_英国_2
+      - 🇷🇺_RU_俄罗斯->🇨🇿_CZ_捷克
+      - 🇩🇪_DE_德国
+      - 🇺🇸_US_美国_1
+      - 🇺🇸_US_美国_2
+      - 🇩🇰_DK_丹麦
+      - 🇺🇸_US_美国->🇸🇨_SC_塞舌尔
+      - 🇮🇷_IR_伊朗
+      - 🇮🇷_IR_伊朗_1
+      - 未知_7
+      - 🇩🇰_DK_丹麦_1
+      - 未知_8
   - name: ♻️ 自动选择
     type: url-test
     proxies:
-      - 🇷🇺_RU_俄罗斯
-      - 🇮🇳_IN_印度
-      - 未知
-      - 🇯🇵_JP_日本
-      - 未知_1
-      - 🇮🇷_IR_伊朗
-      - 🇷🇺_RU_俄罗斯_1
-      - 🇷🇺_RU_俄罗斯_2
+      - 🇳🇱_NL_荷兰->🇺🇸_US_美国
       - 🇨🇳_CN_中国
+      - 未知
+      - 🇬🇧_GB_英国
+      - 🇺🇸_US_美国
+      - 未知_1
+      - 🇸🇦_SA_沙特阿拉伯->🏳️_unKnow_未知
+      - 未知_2
+      - 🇮🇳_IN_印度
+      - 🇷🇺_RU_俄罗斯
+      - 未知_3
+      - 🇷🇺_RU_俄罗斯_1
+      - 🇫🇷_FR_法国
+      - 未知_4
+      - 未知_5
+      - 🇬🇧_GB_英国_1
+      - 🇷🇺_RU_俄罗斯_2
+      - 未知_6
+      - 🇬🇧_GB_英国_2
+      - 🇷🇺_RU_俄罗斯->🇨🇿_CZ_捷克
+      - 🇩🇪_DE_德国
+      - 🇺🇸_US_美国_1
+      - 🇺🇸_US_美国_2
+      - 🇩🇰_DK_丹麦
+      - 🇺🇸_US_美国->🇸🇨_SC_塞舌尔
+      - 🇮🇷_IR_伊朗
+      - 🇮🇷_IR_伊朗_1
+      - 未知_7
+      - 🇩🇰_DK_丹麦_1
+      - 未知_8
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
@@ -167,57 +405,141 @@ proxy-groups:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇷🇺_RU_俄罗斯
-      - 🇮🇳_IN_印度
-      - 未知
-      - 🇯🇵_JP_日本
-      - 未知_1
-      - 🇮🇷_IR_伊朗
-      - 🇷🇺_RU_俄罗斯_1
-      - 🇷🇺_RU_俄罗斯_2
+      - 🇳🇱_NL_荷兰->🇺🇸_US_美国
       - 🇨🇳_CN_中国
+      - 未知
+      - 🇬🇧_GB_英国
+      - 🇺🇸_US_美国
+      - 未知_1
+      - 🇸🇦_SA_沙特阿拉伯->🏳️_unKnow_未知
+      - 未知_2
+      - 🇮🇳_IN_印度
+      - 🇷🇺_RU_俄罗斯
+      - 未知_3
+      - 🇷🇺_RU_俄罗斯_1
+      - 🇫🇷_FR_法国
+      - 未知_4
+      - 未知_5
+      - 🇬🇧_GB_英国_1
+      - 🇷🇺_RU_俄罗斯_2
+      - 未知_6
+      - 🇬🇧_GB_英国_2
+      - 🇷🇺_RU_俄罗斯->🇨🇿_CZ_捷克
+      - 🇩🇪_DE_德国
+      - 🇺🇸_US_美国_1
+      - 🇺🇸_US_美国_2
+      - 🇩🇰_DK_丹麦
+      - 🇺🇸_US_美国->🇸🇨_SC_塞舌尔
+      - 🇮🇷_IR_伊朗
+      - 🇮🇷_IR_伊朗_1
+      - 未知_7
+      - 🇩🇰_DK_丹麦_1
+      - 未知_8
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇷🇺_RU_俄罗斯
-      - 🇮🇳_IN_印度
-      - 未知
-      - 🇯🇵_JP_日本
-      - 未知_1
-      - 🇮🇷_IR_伊朗
-      - 🇷🇺_RU_俄罗斯_1
-      - 🇷🇺_RU_俄罗斯_2
+      - 🇳🇱_NL_荷兰->🇺🇸_US_美国
       - 🇨🇳_CN_中国
+      - 未知
+      - 🇬🇧_GB_英国
+      - 🇺🇸_US_美国
+      - 未知_1
+      - 🇸🇦_SA_沙特阿拉伯->🏳️_unKnow_未知
+      - 未知_2
+      - 🇮🇳_IN_印度
+      - 🇷🇺_RU_俄罗斯
+      - 未知_3
+      - 🇷🇺_RU_俄罗斯_1
+      - 🇫🇷_FR_法国
+      - 未知_4
+      - 未知_5
+      - 🇬🇧_GB_英国_1
+      - 🇷🇺_RU_俄罗斯_2
+      - 未知_6
+      - 🇬🇧_GB_英国_2
+      - 🇷🇺_RU_俄罗斯->🇨🇿_CZ_捷克
+      - 🇩🇪_DE_德国
+      - 🇺🇸_US_美国_1
+      - 🇺🇸_US_美国_2
+      - 🇩🇰_DK_丹麦
+      - 🇺🇸_US_美国->🇸🇨_SC_塞舌尔
+      - 🇮🇷_IR_伊朗
+      - 🇮🇷_IR_伊朗_1
+      - 未知_7
+      - 🇩🇰_DK_丹麦_1
+      - 未知_8
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇷🇺_RU_俄罗斯
-      - 🇮🇳_IN_印度
-      - 未知
-      - 🇯🇵_JP_日本
-      - 未知_1
-      - 🇮🇷_IR_伊朗
-      - 🇷🇺_RU_俄罗斯_1
-      - 🇷🇺_RU_俄罗斯_2
+      - 🇳🇱_NL_荷兰->🇺🇸_US_美国
       - 🇨🇳_CN_中国
+      - 未知
+      - 🇬🇧_GB_英国
+      - 🇺🇸_US_美国
+      - 未知_1
+      - 🇸🇦_SA_沙特阿拉伯->🏳️_unKnow_未知
+      - 未知_2
+      - 🇮🇳_IN_印度
+      - 🇷🇺_RU_俄罗斯
+      - 未知_3
+      - 🇷🇺_RU_俄罗斯_1
+      - 🇫🇷_FR_法国
+      - 未知_4
+      - 未知_5
+      - 🇬🇧_GB_英国_1
+      - 🇷🇺_RU_俄罗斯_2
+      - 未知_6
+      - 🇬🇧_GB_英国_2
+      - 🇷🇺_RU_俄罗斯->🇨🇿_CZ_捷克
+      - 🇩🇪_DE_德国
+      - 🇺🇸_US_美国_1
+      - 🇺🇸_US_美国_2
+      - 🇩🇰_DK_丹麦
+      - 🇺🇸_US_美国->🇸🇨_SC_塞舌尔
+      - 🇮🇷_IR_伊朗
+      - 🇮🇷_IR_伊朗_1
+      - 未知_7
+      - 🇩🇰_DK_丹麦_1
+      - 未知_8
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇷🇺_RU_俄罗斯
-      - 🇮🇳_IN_印度
-      - 未知
-      - 🇯🇵_JP_日本
-      - 未知_1
-      - 🇮🇷_IR_伊朗
-      - 🇷🇺_RU_俄罗斯_1
-      - 🇷🇺_RU_俄罗斯_2
+      - 🇳🇱_NL_荷兰->🇺🇸_US_美国
       - 🇨🇳_CN_中国
+      - 未知
+      - 🇬🇧_GB_英国
+      - 🇺🇸_US_美国
+      - 未知_1
+      - 🇸🇦_SA_沙特阿拉伯->🏳️_unKnow_未知
+      - 未知_2
+      - 🇮🇳_IN_印度
+      - 🇷🇺_RU_俄罗斯
+      - 未知_3
+      - 🇷🇺_RU_俄罗斯_1
+      - 🇫🇷_FR_法国
+      - 未知_4
+      - 未知_5
+      - 🇬🇧_GB_英国_1
+      - 🇷🇺_RU_俄罗斯_2
+      - 未知_6
+      - 🇬🇧_GB_英国_2
+      - 🇷🇺_RU_俄罗斯->🇨🇿_CZ_捷克
+      - 🇩🇪_DE_德国
+      - 🇺🇸_US_美国_1
+      - 🇺🇸_US_美国_2
+      - 🇩🇰_DK_丹麦
+      - 🇺🇸_US_美国->🇸🇨_SC_塞舌尔
+      - 🇮🇷_IR_伊朗
+      - 🇮🇷_IR_伊朗_1
+      - 未知_7
+      - 🇩🇰_DK_丹麦_1
+      - 未知_8
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -240,15 +562,36 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇷🇺_RU_俄罗斯
-      - 🇮🇳_IN_印度
-      - 未知
-      - 🇯🇵_JP_日本
-      - 未知_1
-      - 🇮🇷_IR_伊朗
-      - 🇷🇺_RU_俄罗斯_1
-      - 🇷🇺_RU_俄罗斯_2
+      - 🇳🇱_NL_荷兰->🇺🇸_US_美国
       - 🇨🇳_CN_中国
+      - 未知
+      - 🇬🇧_GB_英国
+      - 🇺🇸_US_美国
+      - 未知_1
+      - 🇸🇦_SA_沙特阿拉伯->🏳️_unKnow_未知
+      - 未知_2
+      - 🇮🇳_IN_印度
+      - 🇷🇺_RU_俄罗斯
+      - 未知_3
+      - 🇷🇺_RU_俄罗斯_1
+      - 🇫🇷_FR_法国
+      - 未知_4
+      - 未知_5
+      - 🇬🇧_GB_英国_1
+      - 🇷🇺_RU_俄罗斯_2
+      - 未知_6
+      - 🇬🇧_GB_英国_2
+      - 🇷🇺_RU_俄罗斯->🇨🇿_CZ_捷克
+      - 🇩🇪_DE_德国
+      - 🇺🇸_US_美国_1
+      - 🇺🇸_US_美国_2
+      - 🇩🇰_DK_丹麦
+      - 🇺🇸_US_美国->🇸🇨_SC_塞舌尔
+      - 🇮🇷_IR_伊朗
+      - 🇮🇷_IR_伊朗_1
+      - 未知_7
+      - 🇩🇰_DK_丹麦_1
+      - 未知_8
 rule-providers:
   LocalAreaNetwork:
     type: http
